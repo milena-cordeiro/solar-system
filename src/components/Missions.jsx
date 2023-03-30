@@ -6,7 +6,7 @@ import missions from '../data/missions';
 export default class Missions extends Component {
   render() {
     return (
-      <div data-testid="missions">
+      <div className="page__missions" data-testid="missions">
         <Title headline="Missões" />
         {
           missions.map(({ name, year, country, destination }) => (
