@@ -1,6 +1,7 @@
 .page__missions {
   align-items: center;
+  color: aliceblue;
   display: flex;
-  flex-flow: wrap row;
+  flex-flow: row wrap;
   justify-content: space-evenly;
 }

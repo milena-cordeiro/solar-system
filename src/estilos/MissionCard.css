@@ -1,0 +1,11 @@
+.page__missionCard {
+  background-color: rgba(128, 128, 128, 0.479);
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: aliceblue;
+  height: 200px;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  width: 300px;
+}
