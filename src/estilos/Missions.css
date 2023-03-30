@@ -1,5 +1,6 @@
 .page__missions {
   align-items: center;
   display: flex;
-  flex-flow: wrap column;
+  flex-flow: wrap row;
+  justify-content: space-evenly;
 }
