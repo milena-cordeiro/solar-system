@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 
-export default class MissionCard extends Component {
+class MissionCard extends Component {
   render() {
     const { name, year, country, destination } = this.props;
     return (
@@ -21,3 +21,5 @@ MissionCard.propTypes = {
   name: PropTypes.string.isRequired,
   year: PropTypes.string.isRequired,
 };
+
+export default MissionCard;
