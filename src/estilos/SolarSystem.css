@@ -1,0 +1,6 @@
+.page__solarSystem {
+  display: flex;
+  flex-flow: row;
+  text-align: center;
+  width: 100%;
+}
